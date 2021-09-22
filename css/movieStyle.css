@@ -1,0 +1,123 @@
+* {box-sizing:border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* 
+*
+image carousel
+*
+*/
+
+    /* Slideshow container */
+    .slideshow-container {
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+    }
+
+    /* .slideshow-container img {
+        height: 100px;
+    } */
+
+    /* Hide the images by default */
+    .mySlides {
+    display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+/* 
+*
+*
+MOVIE CARDS
+*
+*/
+/* .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: var(--gap);
+    margin: 0 0 var(--gap);
+} */
+.article-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+
+
+}
+.movie-card a {
+    color: cadetblue;
+    text-decoration: none;
+}
+.movie-card {
+    background: red;
+    color: black;
+    border-radius: 8px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 40%;
+    margin: 10px;
+}
+.movie-thumb {
+    display: block;
+    margin-bottom: 15px;
+}
+.movie-thumb img .movie-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px; 
+}
+.movie-guide-time, .movie-excerpt{
+    margin: 0 10px 20px;
+}

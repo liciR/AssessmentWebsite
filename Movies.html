@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenge101 - Movies</title>
+    <link rel="stylesheet" href="css/pageStyle.css">
+    <link rel="stylesheet" href="css/movieStyle.css">
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="images/Avenge101.png" alt="Avenge101Banner" width="100%">
+        <!-- avenge101logo
+        <img src="" alt="webicon" width="60px"> -->
+        <!-- contact -->
+        <contact id="contact">
+            <a class="" href="Contact.html">Contact Us</a>
+        </contact>
+    </div>
+
+    <!-- navbar -->
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Movies.html">Movies</a>
+    </div>
+
+    <h1>Movies</h1>
+
+    <!-- img slideshow -->
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images w/o number and caption text -->
+        <div class="mySlides">
+        <img src="images/avengers1a.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+        <img src="images/avengers2a.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+        <img src="images/avengers3a.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+        <img src="images/avengers4a.jpg" style="width:100%">
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+        <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <h2>Movie List</h2>
+    <ul>
+        <li><a href="Avengers1.html">The Avengers</a></li>
+        <li><a href="Avengers2.html">Avengers: Age of Ultron</a></li>
+        <li>Infinity War</li>
+        <li>Endgame</li>
+    </ul>
+
+    <div class="article-grid">
+        <article class="movie-card">
+            <a class="movie-thumb" href="Avengers1.html">
+                <img width="100%" height="250px" class="movie-thumbnail" src="images/avengers1a.jpg"> 
+            </a>
+             <div class="movie-info">
+                <h2><a href="Avengers1.html">The Avengers</a> </h2>
+             </div>
+             <div class="movie-guide-time">
+                 <p>Running Time: 2h 23min</p>
+             </div>
+             <div class="movie-excerpt">
+                <p>The Avengers is the first film of the series and follows the grouping together of various superheroes. This includes Iron Man, Captain America, Hulk, Thor, Black Widow and Hawkeye for one purpose and one purpose only, the saving of humanity.</p>
+             </div>
+        </article>
+
+        <article class="movie-card">
+            <a class="movie-thumb" href="Avengers2.html">
+                <img width="100%" height="250px" class="movie-thumbnail" src="images/avengers2b"> 
+            </a>
+             <div class="movie-info">
+                <h2><a href="Avengers2.html">The Avengers: the Age of Ultron</a> </h2>
+             </div>
+             <div class="movie-guide-time">
+                 <p>Running Time: 2h 21min</p>
+             </div>
+             <div class="movie-excerpt">
+                <p>The Avengers: Age of Ultron is the second film in the Avengers franchise and depicts the group of six's fight against the sentient Ultron, an artificial intelligence system created by Tony Stark</p>
+             </div>
+        </article>
+    </div>
+
+</body>
+</html>

@@ -4,13 +4,17 @@
   background-color: maroon;
   color: whitesmoke;
   font-size: large;
-  height: 200px;
+  height: auto;
   width: auto;
+
 }
 
 #contact {
-  
   float: right;
+  top: -80px;
+}
+#contact a {
+  text-decoration: none;
 }
 
 body {
@@ -23,6 +27,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       overflow: hidden;
       background-color: #333;
       font-family: Arial;
+    
     }
 
     /* Links inside the navbar */
@@ -31,7 +36,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 16px;
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 15px 50px;
       text-decoration: none;
     }
 
@@ -47,7 +52,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       border: none;
       outline: none;
       color: white;
-      padding: 14px 16px;
+      padding: 15px 50px;
       background-color: inherit;
       font-family: inherit; /* Important for vertical align on mobile phones */
       margin: 0; /* Important for vertical align on mobile phones */
@@ -87,3 +92,72 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     .dropdown:hover .dropdown-content {
       display: block;
     }
+
+    #contactNav {
+      float: right;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 15px 80px;
+      text-decoration: none;
+    }
+/* 
+*
+body
+* 
+*/
+
+
+/* 
+*
+footer
+*
+*/
+
+
+.footer {
+  color: white;
+  background-color: rgb(105, 26, 26);
+}
+
+.footer a {
+  color: inherit;
+  /* text-decoration: none; */
+  padding: 0;
+  margin: 0;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.links li {
+  padding: 0;
+  margin: 0;
+}
+
+#footerContent {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(105, 26, 26);
+  margin-bottom: 0;
+}
+
+#footerCred {
+  margin: 0;
+  background-color: maroon;
+  width: 100%;
+  padding: 5px 20px 5px;
+}
+
+#footername {
+  float: right;
+}

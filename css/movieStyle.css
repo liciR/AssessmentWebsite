@@ -3,6 +3,11 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
+body h1 {
+    text-align: center;
+}
+
+
 /* 
 *
 image carousel
@@ -70,6 +75,29 @@ image carousel
 /* 
 *
 *
+body
+*
+* 
+*/
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    line-height: 0.5in;
+}
+
+.list a {
+    text-decoration: none;
+    color: red;
+}
+
+/* 
+*
+*
 MOVIE CARDS
 *
 */
@@ -100,6 +128,7 @@ MOVIE CARDS
     display: flex;
     flex-direction: column;
     float: left;
+    min-width: 450px;
     width: 40%;
     margin: 10px;
 }

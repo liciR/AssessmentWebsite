@@ -16,18 +16,30 @@
         <!-- avenge101logo
         <img src="" alt="webicon" width="60px"> -->
         <!-- contact -->
-        <contact id="contact">
+        <!-- <div id="contact">
             <a class="" href="Contact.html">Contact Us</a>
-        </contact>
+        </div> -->
     </div>
 
     <!-- navbar -->
     <div class="navbar">
         <a href="Home.html">Home</a>
-        <a href="Movies.html">Movies</a>
+        <!-- <a href="Movies.html">Movies</a> -->
+        <div class="dropdown">
+            <button class="dropbtn">Movies
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Movies.html">Overview</a>
+              <a href="Avengers1.html">The Avengers</a>
+              <a href="Avengers2.html">Avengers: Age of Ultron</a>
+            </div>
+        </div>
+        <a href="Character.html">Characters</a>
+        <a id="contactNav" href="Contact.html">Contact Us</a>
     </div>
 
-    <h1>Movies</h1>
+    <h1>Movies: An Overview</h1>
 
     <!-- img slideshow -->
 
@@ -64,13 +76,17 @@
         <span class="dot" onclick="currentSlide(4)"></span>
     </div>
 
-    <h2>Movie List</h2>
-    <ul>
-        <li><a href="Avengers1.html">The Avengers</a></li>
-        <li><a href="Avengers2.html">Avengers: Age of Ultron</a></li>
-        <li>Infinity War</li>
-        <li>Endgame</li>
-    </ul>
+  
+       <div class="list">
+            <h2>Movie List</h2>
+            <ul>
+                <li><a href="Avengers1.html">The Avengers</a></li>
+                <li><a href="Avengers2.html">Avengers: Age of Ultron</a></li>
+                <li>Infinity War</li>
+                <li>Endgame</li>
+            </ul>
+       </div>
+   
 
     <div class="article-grid">
         <article class="movie-card">
@@ -103,6 +119,47 @@
              </div>
         </article>
     </div>
+
+
+
+
+    <div class="footer">
+
+        <div id="footerContent">
+            <div class="footer-col">
+                <h3><a href="Contact.html">Contact Us</a></h3>
+                <h3><a href="Home.html">Home</a></h3>
+            </div>
+        
+            <div class="footer-col">
+                <h3><a href="Movies.html">Movies</a></h3>
+                <ul class="links">
+                    <li>
+                        <a href="Movies.html">Overview</a>
+                    </li>
+                    <li>
+                        <a href="Avengers1.html">The Avengers</a>
+                    </li>
+                    <li>
+                        <a href="Avengers2.html">The Avengers: Age of Ultron</a>
+                    </li>
+                    <li>
+                        Avengers: Infinity War
+                    </li>
+                    <li>
+                        Avengers Endgame
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div id="footerCred">
+            <p id="footername">Avenge101</p>
+            <p>All rights reserved</p>
+        </div>
+    </div>
+
+
 
 </body>
 </html>

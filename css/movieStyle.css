@@ -1,12 +1,7 @@
-* {box-sizing:border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
 body h1 {
     text-align: center;
+    margin: 50px;
 }
-
 
 /* 
 *
@@ -72,6 +67,7 @@ image carousel
     .active, .dot:hover {
     background-color: #717171;
     }
+
 /* 
 *
 *
@@ -80,7 +76,6 @@ body
 * 
 */
 
-
 .list {
     display: flex;
     justify-content: center;
@@ -88,11 +83,20 @@ body
     margin: 20px;
     padding: 10px;
     line-height: 0.5in;
+    width: auto;
+    background-color: var(--highlight1c);
+    color: var(--primaryCol2b);
+    margin: 50px;
+    border: double;
+    border-color: var(--highlight1b);
 }
 
+.list h2 {
+    color: var(--primaryCol2a);
+}
 .list a {
-    text-decoration: none;
-    color: red;
+    /* text-decoration: none; */
+    color: inherit;
 }
 
 /* 
@@ -113,13 +117,10 @@ MOVIE CARDS
     justify-content: space-evenly;
     align-items: stretch;
     align-content: center;
-
+    margin: 50px;
 
 }
-.movie-card a {
-    color: cadetblue;
-    text-decoration: none;
-}
+
 .movie-card {
     background: red;
     color: black;
@@ -132,6 +133,12 @@ MOVIE CARDS
     width: 40%;
     margin: 10px;
 }
+
+.movie-card a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
 .movie-thumb {
     display: block;
     margin-bottom: 15px;
@@ -145,8 +152,13 @@ MOVIE CARDS
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 10px; 
+    padding: 20px; 
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 .movie-guide-time, .movie-excerpt{
     margin: 0 10px 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }

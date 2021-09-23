@@ -7,6 +7,7 @@
     <title>Avenge101 - The Avengers</title>
     <link rel="stylesheet" href="css/pageStyle.css">
     <link rel="stylesheet" href="css/Avengers1.css">
+    <link rel="stylesheet" href="css/character.css">
 </head>
 <body>
     <div class="banner">
@@ -36,9 +37,28 @@
     <h2>The Avengers</h1>
 
     <!-- gallery -->
+    <!-- responsive image grid -->
+    <div class="row">
+        <div class="column">
+          <img src="images/avengers1c.jpg">
+          <img src="images/avengers1e.jpg">
+        </div>
+        <div class="column">
+          <img src="images/avengers1d.jpg">
+          <img src="images/avengers1c.jpg">
+        </div>
+        <div class="column">
+          <img src="images/avenger1b.jpg">
+          <img src="images/avengers1a.jpg">
+        </div>
+        <div class="column">
+            <img src="images/avengers1d.jpg">
+            <img src="images/avenger1b.jpg">
+          </div>
+      </div>
 
     <!-- main content -->
-    <div id="mainContainer">
+    <div class="mainContainer">
 
         <!-- index of screen -->
         <div id="index">
@@ -55,8 +75,45 @@
             </ul>
         </div>
 
+        <div id="body1">
+            <div id="descriptionCont">
+                <h3>Description</h3>
+                <p>
+                    Marvel's The Avengers, also known as The Avengers and Avengers Assemble, is a series of superhero films that are based on the Marvel Comics superhero team of the same name. The film is a sequel to Iron Man, The Incredible Hulk, Iron Man 2, Thor, and Captain America: The First Avenger and follows the fight of this group of superheroes as they attempt to save humanity from various threats.
+                    Marvel Studios presents in association with Paramount Pictures "Marvel's The Avengers" — the superhero team-up of a lifetime, featuring iconic Marvel superheroes Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye, and Black Widow. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins.
+                </p>
+            </div>
+    
+            <div id="salesCont">
+                <h3>Sales</h3>
+                <img src="images/avengers1c.jpg" alt="">
+                <br>
+                <p>
+                    The film grossed over $1.5 billion worldwide, setting numerous box office records and becoming the third-highest-grossing film of all time and the highest-grossing film of 2012, as well as the first Marvel production to generate $1 billion in ticket sales.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="charactersCont">
+        <h3>Characters</h3>
+        <div class="character-grid">
+            <article class="character-card">
+                <h5>Tony Stark</h5>
+                <a class="character-thumb" href="Avengers1.html">
+                    <img width="100%" height="200px" class="character-thumbnail" src="images/avengers1a.jpg"> 
+                </a>
+                <h4><a href="Avengers1.html">Iron Man</a> </h4>
+                <div class="character-excerpt">
+                    <p>Iron Man is swag</p>
+                </div>
+            </article>
+        </div>
+
+
 
     </div>
+    
 
     <!-- footer -->
     <div class="footer">

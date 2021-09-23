@@ -7,7 +7,7 @@
   --primaryCol2b : rgb(231, 228, 228);
   --highlight1a : rgb(105, 26, 26);
   --highlight1b : rgb(114, 19, 19);
-  --highlight1c : rgb(255, 137, 108);
+  --highlight1c : rgb(230, 130, 123);
 }
 
 body {
@@ -19,6 +19,8 @@ body {
   background-color: var(--highlight1a);
   height: auto;
   width: auto;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar styling */
@@ -27,6 +29,8 @@ body {
     background-color: var(--primaryCol2a);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
     }
 
   .navbar a {
@@ -109,6 +113,8 @@ footer
 
 .footer {
   font-family: inherit;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 #footerContent {
@@ -123,7 +129,6 @@ footer
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 50px;
-  margin-bottom: 0;
 }
 
 .footer a {
@@ -150,5 +155,5 @@ footer
 
 #footername {
   float: right;
-  font-weight: bold;
+  font-weight: bold; 
 }

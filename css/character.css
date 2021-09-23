@@ -1,4 +1,5 @@
 /* character card grid*/
+
 .character-grid {
     display: flex;
     flex-flow: row wrap;
@@ -38,7 +39,6 @@
 
 .character-excerpt{
     margin: 0 10px 20px;
-    padding: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding: 5px;
+    font-size: small;
 }

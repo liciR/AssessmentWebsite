@@ -4,16 +4,40 @@
   --primaryCol1a : black;
   --primaryCol1b : white;
   --primaryCol2a : rgb(85, 89, 94);
-  --primaryCol2b : rgb(231, 228, 228);
+  --primaryCol2b : rgb(218, 216, 216);
+  --primaryCol3a : rgb(245, 241, 241);
   --highlight1a : rgb(105, 26, 26);
   --highlight1b : rgb(114, 19, 19);
   --highlight1c : rgb(230, 130, 123);
 }
 
+@font-face {
+  font-family: bangersFont;
+  src: url(../fonts/Bangers-Regular.ttf);
+}
+
 body {
   font-family: Verdana, sans-serif;
   margin:0;
+  background-color: var(--primaryCol3a);
 }
+
+h1 {
+  font-family: bangersFont;
+  font-size: 2cm;
+}
+h2 {
+  font-family: bangersFont;
+  font-size: 1.5cm;
+  color: var(--highlight1a);
+}
+h3 {
+  font-family: bangersFont;
+  font-size: 1.0cm;
+  color: var(--highlight1c);
+}
+
+
 
 .banner {
   background-color: var(--highlight1a);
@@ -112,7 +136,7 @@ footer
 
 
 .footer {
-  font-family: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 0px;
   margin-top: 20px;
 }

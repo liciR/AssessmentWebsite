@@ -17,6 +17,74 @@ h2 {
     
   }
 
+/* INDEX WINDOW STUFF
+#catLogo {
+    position : absolute;
+    left : 10px;
+}
+#catLogo:hover  {
+           
+    transform: scale(1.1);
+    transition: .5s;
+}
+#dogLogo {
+    position : absolute;
+    left : 100px;
+    display : none;
+}
+.myInd {
+    grid-area : nav;
+    background-color: rgb(218, 233, 196);
+    text-align: center;
+
+@media (max-width :800px)
+{
+    .myInd {
+        position : fixed;
+        top : 80px;
+        width : 200px;
+        border-style: solid;
+        border-width : thin;
+        padding-bottom: 30px;
+        opacity : 50%;
+        transition :1s;
+        transform: translate(-150px);
+
+        .myInd p {
+            background-color: blanchedalmond;
+            border-style: solid;
+            border-width : thin;
+            padding : 10px;
+            width : 50%;
+            margin : 0 auto;
+            margin-bottom : 10px;
+            transition : .5s;
+            
+        }
+
+        .myInd p:hover {
+            background-color: black;
+            color : blanchedalmond;
+
+            #title {
+                color : blue;
+            }
+
+            #closeWindow {
+                position : absolute;
+                top : 10px;
+                left : 10px;
+                font-size: xx-large;
+            }
+            #closeWindow:hover {
+                background-color: black;
+                color : white;
+            }
+
+}
+     */
+
+
 /* image grid */
 
     .row {

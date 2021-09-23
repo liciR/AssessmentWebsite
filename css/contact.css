@@ -1,0 +1,79 @@
+/* Add a background image for the entire page 
+https://www.w3schools.com/html/html_images_background.asp 
+the image stays the same in background, the text just scrolls over the top*/
+body {
+    background-image: url('../images/paperbkgd.jpg');
+    /* To avoid the background image from repeating itself, set the background-repeat property to no-repeat */
+    background-repeat: no-repeat;
+    /* If you want the background image to cover the entire element - set the background-size property to cover.
+    To make sure the entire element is always covered, set the background-attachment property to fixed:
+  This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions): */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    /* If want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%: */
+  
+  }
+
+.allText {
+    background-color: var(--primaryCol3a);
+    margin: 75px;
+    padding: 20px;
+}
+
+.myHeader {
+    text-align: center;
+}
+.myHeader p {
+    color: var(--highlight1a);
+    font-weight: bolder;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contDetails {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+    margin: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+table {
+    font-family: inherit;
+    border-collapse: collapse;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: var(--highlight1c);
+  }
+  tr:nth-child(even) {
+    background-color: var(--primaryCol2b);
+  }
+
+#tableTitle {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: bangersFont;
+    color: var(--highlight1a);
+}
+
+.footer {
+    margin-top: 100px;
+}

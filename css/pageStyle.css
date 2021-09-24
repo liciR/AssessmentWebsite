@@ -37,7 +37,18 @@ h3 {
   color: var(--highlight1c);
 }
 
+.explanationText {
+  text-align: center;
+  padding: 20px;
+  color: var(--highlight1c);
+  font-family: bangersFont;
+}
 
+.explanationText1 {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
 
 .banner {
   background-color: var(--highlight1a);

@@ -1,6 +1,42 @@
 #index {
     height: 300px;
 }
+
+/* gally of imgs using grid */
+.galleryCont {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px; 
+  }
+  
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+
 #charactersCont h3 {
     margin: 20px;
 }

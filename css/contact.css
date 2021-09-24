@@ -1,18 +1,9 @@
-/* Add a background image for the entire page 
-https://www.w3schools.com/html/html_images_background.asp 
-the image stays the same in background, the text just scrolls over the top*/
+/* background image for whole page */
 body {
     background-image: url('../images/paperbkgd.jpg');
-    /* To avoid the background image from repeating itself, set the background-repeat property to no-repeat */
     background-repeat: no-repeat;
-    /* If you want the background image to cover the entire element - set the background-size property to cover.
-    To make sure the entire element is always covered, set the background-attachment property to fixed:
-  This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions): */
     background-attachment: fixed;
-    /* background-size: cover; */
     background-size: 100% 100%;
-    /* If want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%: */
-  
   }
 
 .allText {
@@ -21,6 +12,7 @@ body {
     padding: 20px;
 }
 
+/* heading */
 .myHeader {
     text-align: center;
 }
@@ -45,6 +37,7 @@ h3 {
     margin-top: 20px;
 }
 
+/* phone number table styling */
 table {
     font-family: inherit;
     border-collapse: collapse;
@@ -59,7 +52,7 @@ table {
     text-align: left;
     padding: 8px;
   }
-  
+/* coloured rows (alternating) */
   tr:nth-child(odd) {
     background-color: var(--highlight1c);
   }

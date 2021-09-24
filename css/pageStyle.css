@@ -1,5 +1,6 @@
 * {box-sizing:border-box}
 
+/* colour styling */
 :root {
   --primaryCol1a : black;
   --primaryCol1b : white;
@@ -11,17 +12,20 @@
   --highlight1c : rgb(230, 130, 123);
 }
 
+/* fonts */
 @font-face {
   font-family: bangersFont;
   src: url(../fonts/Bangers-Regular.ttf);
 }
 
+/* basic body formatting */
 body {
   font-family: Verdana, sans-serif;
   margin:0;
   background-color: var(--primaryCol3a);
 }
 
+/* headings */
 h1 {
   font-family: bangersFont;
   font-size: 2cm;
@@ -37,6 +41,7 @@ h3 {
   color: var(--highlight1c);
 }
 
+/* extra information text styling */
 .explanationText {
   text-align: center;
   padding: 20px;
@@ -50,6 +55,7 @@ h3 {
   text-align: center;
 }
 
+/* AVENGE101 banner */
 .banner {
   background-color: var(--highlight1a);
   height: auto;
@@ -58,7 +64,7 @@ h3 {
   padding: 0;
 }
 
-/* Navbar styling */
+/* Navigation bar styling */
   .navbar {
     overflow: hidden;
     background-color: var(--primaryCol2a);
@@ -132,20 +138,8 @@ h3 {
     text-decoration: none;
   }
 
-/* 
-*
-body
-* 
-*/
 
-
-/* 
-*
-footer
-*
-*/
-
-
+/* footer styling */
 .footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 0px;
@@ -168,7 +162,6 @@ footer
 
 .footer a {
   color: var(--primaryCol2b);
-  /* text-decoration: none; */
   padding: 0;
   margin: 0;
 }

@@ -1,3 +1,4 @@
+/* heading styling */
 body h1, h2, h3 {
     text-align: center;
     margin: 10px;
@@ -6,6 +7,7 @@ h2 {
     font-size: 1.0cm;
 }
 
+/* AVENGE101 banner */
 .banner {
     background-color: var(--highlight1a);
     height: auto;
@@ -17,85 +19,15 @@ h2 {
     
   }
 
-/* INDEX WINDOW STUFF
-#catLogo {
-    position : absolute;
-    left : 10px;
-}
-#catLogo:hover  {
-           
-    transform: scale(1.1);
-    transition: .5s;
-}
-#dogLogo {
-    position : absolute;
-    left : 100px;
-    display : none;
-}
-.myInd {
-    grid-area : nav;
-    background-color: rgb(218, 233, 196);
-    text-align: center;
-
-@media (max-width :800px)
-{
-    .myInd {
-        position : fixed;
-        top : 80px;
-        width : 200px;
-        border-style: solid;
-        border-width : thin;
-        padding-bottom: 30px;
-        opacity : 50%;
-        transition :1s;
-        transform: translate(-150px);
-
-        .myInd p {
-            background-color: blanchedalmond;
-            border-style: solid;
-            border-width : thin;
-            padding : 10px;
-            width : 50%;
-            margin : 0 auto;
-            margin-bottom : 10px;
-            transition : .5s;
-            
-        }
-
-        .myInd p:hover {
-            background-color: black;
-            color : blanchedalmond;
-
-            #title {
-                color : blue;
-            }
-
-            #closeWindow {
-                position : absolute;
-                top : 10px;
-                left : 10px;
-                font-size: xx-large;
-            }
-            #closeWindow:hover {
-                background-color: black;
-                color : white;
-            }
-
-}
-     */
-
-
 /* image grid */
-
     .row {
         display: flex;
         flex-wrap: wrap;
         padding: 0 4px;
         margin: 50px;
     }
-    
-    /* Create four equal columns that sits next to each other */
-    .column {
+
+     .column {
         flex: 25%;
         max-width: 25%;
         padding: 0 4px;
@@ -107,7 +39,7 @@ h2 {
         width: 100%;
     }
     
-    /* Responsive layout - makes a two column-layout instead of four columns */
+    /* Responsive layout */
     @media screen and (max-width: 800px) {
         .column {
         flex: 50%;
@@ -115,7 +47,6 @@ h2 {
         }
     }
     
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
         .column {
         flex: 100%;
@@ -159,9 +90,6 @@ h2 {
     border-left: transparent;
     border-right: transparent;
     border-width: thick;
-    /* margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 50px; */
     margin: 80px;
     border-radius: 2px;
     color: var(--highlight1a);

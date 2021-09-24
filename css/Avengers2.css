@@ -1,8 +1,10 @@
+/* For Avenrger: Age of Ultron, this styling sheet mist be used with Avengers1.css */
+
 #index {
     height: 300px;
 }
 
-/* gally of imgs using grid */
+/* images using grid */
 .galleryCont {
     width: 90%;
     display: flex;

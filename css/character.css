@@ -9,6 +9,7 @@
     margin: 50px;
 }
 
+/* character cards styling */
 .character-card {
     background: var(--primaryCol2b);
     color: var(--primaryCol1a);

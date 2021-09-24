@@ -8,19 +8,12 @@ body h1 {
 image carousel
 *
 */
-
-    /* Slideshow container */
     .slideshow-container {
     max-width: 60%;
     position: relative;
     margin: auto;
     }
 
-    /* .slideshow-container img {
-        height: 100px;
-    } */
-
-    /* Hide the images by default */
     .mySlides {
     display: none;
     }
@@ -41,18 +34,18 @@ image carousel
     user-select: none;
     }
 
-    /* Position the "next button" to the right */
+    /* next button positioning */
     .next {
     right: 0;
     border-radius: 3px 0 0 3px;
     }
 
-    /* On hover, add a black background color with a little bit see-through */
+    /* buttons hover */
     .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.5);
     }
 
-    /* The dots/bullets/indicators */
+    /* indicators */
     .dot {
     cursor: pointer;
     height: 15px;
@@ -70,12 +63,11 @@ image carousel
 
 /* 
 *
-*
 body
 *
-* 
 */
 
+/* movie list styling */
 .list {
     display: flex;
     justify-content: center;
@@ -96,22 +88,11 @@ body
     color: var(--highlight1b);
 }
 .list a {
-    /* text-decoration: none; */
     color: var(--primaryCol2a);
 }
 
-/* 
-*
-*
-MOVIE CARDS
-*
-*/
-/* .article-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    gap: var(--gap);
-    margin: 0 0 var(--gap);
-} */
+/* Movie card styling */
+
 .article-grid {
     display: flex;
     flex-flow: row wrap;

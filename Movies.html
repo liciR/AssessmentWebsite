@@ -12,14 +12,15 @@
 </head>
 
 <body>
+    <!-- AVENGE101 banner -->
     <div class="banner">
         <img src="images/Avenge101.png" alt="Avenge101Banner" width="100%">
     </div>
 
-    <!-- navbar -->
+    <!-- navigation bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
-        <!-- <a href="Movies.html">Movies</a> -->
+        <!-- dropdown menu for Movies -->
         <div class="dropdown">
             <button class="dropbtn">Movies
               <i class="fa fa-caret-down"></i>
@@ -35,14 +36,13 @@
         <a id="contactNav" href="Contact.html">Contact Us</a>
     </div>
 
+    <!-- header -->
     <h1>Movies: An Overview</h1>
 
-    <!-- img slideshow -->
-
-    <!-- Slideshow container -->
+    <!-- image slideshow / carousel -->
     <div class="slideshow-container">
 
-        <!-- Full-width images w/o number and caption text -->
+        <!-- images -->
         <div class="mySlides">
         <img src="images/avengers1a.jpg" style="width:100%">
         </div>
@@ -59,12 +59,12 @@
         <img src="images/avengers4a.jpg" style="width:100%">
         </div>
     
-        <!-- Next and previous buttons -->
+        <!-- buttons (next and previous) -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
-        <!-- The dots/circles -->
+        <!-- dots -->
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
@@ -72,21 +72,27 @@
         <span class="dot" onclick="currentSlide(4)"></span>
     </div>
 
+    <!-- explains how to view images -->
     <p class="explanationText">press to view image gallery!</p>
   
-       <div class="list">
-            <h2>Movie List</h2>
-            <ul>
-                <li><a href="Avengers1.html">The Avengers</a></li>
-                <li><a href="Avengers2.html">Avengers: Age of Ultron</a></li>
-                <li>Infinity War</li>
-                <li>Endgame</li>
-            </ul>
-       </div>
+    <!-- list of movies w/ links to respective sites -->
+    <div class="list">
+        <h2>Movie List</h2>
+        <ul>
+            <li><a href="Avengers1.html">The Avengers</a></li>
+            <li><a href="Avengers2.html">Avengers: Age of Ultron</a></li>
+            <li>Infinity War</li>
+            <li>Endgame</li>
+        </ul>
+    </div>
    
+    <!-- aids in navigation of websites -->
     <p class="explanationText1">Select below for more information</p>
 
+    <!-- movie cards -->
     <div class="article-grid">
+
+        <!-- The Avengers - movie card -->
         <article class="movie-card">
             <a class="movie-thumb" href="Avengers1.html">
                 <img width="100%" height="250px" class="movie-thumbnail" src="images/avengers1a.jpg"> 
@@ -101,7 +107,8 @@
                 <p>The Avengers is the first film of the series and follows the grouping together of various superheroes. This includes Iron Man, Captain America, Hulk, Thor, Black Widow and Hawkeye for one purpose and one purpose only, the saving of humanity.</p>
              </div>
         </article>
-
+        
+        <!-- The Avengers: Age of Ultron - movie card -->
         <article class="movie-card">
             <a class="movie-thumb" href="Avengers2.html">
                 <img width="100%" height="250px" class="movie-thumbnail" src="images/avengers2b"> 
@@ -115,15 +122,13 @@
              <div class="movie-excerpt">
                 <p>The Avengers: Age of Ultron is the second film in the Avengers franchise and depicts the group of six's fight against the sentient Ultron, an artificial intelligence system created by Tony Stark</p>
              </div>
-
         </article>
+
     </div>
 
-
-
-
+    <!-- footer -->
     <div class="footer">
-
+        <!-- footer menu-->
         <div id="footerContent">
             <div class="footer-col">
                 <h4><a href="Contact.html">Contact Us</a></h4>
@@ -156,7 +161,7 @@
                 <h4><a href="Character.html">Characters</a></h4>
             </div>
         </div>
-
+        <!-- footer end -->
         <div id="footerCred">
             <p id="footername">Avenge101</p>
             <p>All rights reserved</p>
